@@ -1,0 +1,19 @@
+{
+  "name": "jsonresume",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "postinstall": "patch-package",
+    "render": "resumed -t jsonresume-theme-stackoverflow render"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "jsonresume-theme-stackoverflow": "2.0.2",
+    "patch-package": "^8.0.0",
+    "postinstall-postinstall": "^2.1.0",
+    "resumed": "^3.0.1"
+  }
+}

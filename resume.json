@@ -1,0 +1,254 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Damiano Collu",
+    "label": "React Native Developer",
+    "image": "",
+    "email": "colludamiano7@gmail.com",
+    "phone": "+39 393 892 6110",
+    "summary": "Hello there! I've been into app development since 2014 and have focused on React Native for over 5 years now. I love diving deep into native development and making apps run smoothly while looking great. Always eager to learn new stuff, I stay updated on the latest tech and best ways to do things.",
+    "location": {
+      "postalCode": "Assemini 09032",
+      "city": "Cagliari",
+      "countryCode": "IT",
+      "region": "Sardinia"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "Twitter",
+        "url": "https://twitter.com/thedummyxyz"
+      },
+      {
+        "network": "GitHub",
+        "username": "Github",
+        "url": "https://github.com/genesisxyz"
+      },
+      {
+        "network": "Stack-Overflow",
+        "username": "StackOverflow",
+        "url": "https://stackoverflow.com/users/232194/genesisxyz"
+      },
+      {
+        "network": "Linkedin",
+        "username": "Linkedin",
+        "url": "https://www.linkedin.com/in/genesisxyz/"
+      },
+      {
+        "network": "Reddit",
+        "username": "Reddit",
+        "url": "https://reddit.com/user/genesisxyz/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "GreenShare",
+      "location": "Cagliari, Sardinia",
+      "position": "React Native Developer",
+      "url": "https://greenshare.it/",
+      "startDate": "2019-08",
+      "summary": "My expertise primarily lies in mobile app development, with a strong focus on React Native. While I'm skilled in native mobile app development, I also assist the team in managing the infrastructure supporting our backend services, built with Django and deployed through Kubernetes. Currently, I oversee the entire technological stack, ensuring smooth operations from infrastructure setup to deployment. I organize tasks and collaborate with the team to ensure a successful project delivery.",
+      "highlights": [
+        "Built multiple apps from the ground up using React Native and the Expo framework. Primarily focused on developing apps with background geolocation functionalities, alongside projects facilitating ticket and payment management for public transportation companies.",
+        "Developed packages for React Native, including functionalities for managing NFC cards and POS devices, as well as background geolocation.",
+        "Used Jira to manage tasks and improve the team's workflow.",
+        "Managed the deployment through GitLab CI for the backend and Expo Application Service for the mobile apps.",
+        "Managed the configuration of Docker for multiple projects on both frontend and backend apps.",
+        "Built front-end web applications using ReactJS and VueJS using NX monorepo.",
+        "Use of git-flow for managing the codebase."
+      ]
+    },
+    {
+      "name": "FinDynamic",
+      "location": "Cagliari, Sardinia - Remote",
+      "position": "React Native Developer",
+      "url": "https://www.findynamic.com/",
+      "startDate": "2018-04",
+      "endDate": "2018-09",
+      "summary": "As a freelance React Native Developer, I had the opportunity to create the initial version of the app, both for Android and iOS."
+    },
+    {
+      "name": "Jobyourlife",
+      "location": "Cagliari, Sardinia",
+      "position": "Fullstack Developer",
+      "url": "https://www.linkedin.com/company/jobyourlife-s-r-l-/",
+      "startDate": "2016-02",
+      "endDate": "2018-05",
+      "summary": "I contributed to develop and mantain the full stack of the company, switching from both frontend and backend as well as mobile applications.",
+      "highlights": [
+        "Developed RESTful APIs in PHP using Symfony framework and MySQL.",
+        "Built web admin interfaces for statistical analysis of user and company data using ReactJS and Redux.",
+        "Created a mobile application from the ground up for both iOS (Objective C) and Android (Java) platforms, enabling users to create comprehensive profiles and receive job offers directly from companies.",
+        "Utilized Elasticsearch for enhanced search functionality in user profiles and job offers.",
+        "I designed and implemented algorithms in Python for text analysis to generate word clusters, categorizing user-inserted information. I utilized frameworks such as gensim, NLTK, and fastText."
+      ]
+    },
+    {
+      "name": "Letsdoeat",
+      "location": "Cagliari, Sardinia",
+      "position": "iOS Developer",
+      "url": "https://www.linkedin.com/company/letsdoeat/about/",
+      "startDate": "2016-02",
+      "endDate": "2016-05",
+      "summary": "I developed as freelancer the iOS app for Letsdoeat, a new startup at the time, which helped users plan their evenings based on their budget.",
+      "highlights": [
+        "Made the app from the ground up using Swift."
+      ]
+    },
+    {
+      "name": "Accenture Italia",
+      "location": "Cagliari, Sardinia - Naples, Campania",
+      "position": "Fullstack Java Developer",
+      "url": "https://www.accenture.com/",
+      "startDate": "2014-10",
+      "endDate": "2015-04",
+      "summary": "Development of new systems for clients using Java technologies while also maintaining legacy applications.",
+      "highlights": [
+        "Learned Java Enterprise and Google Web Toolkit.",
+        "Managed the repository using SVN."
+      ]
+    },
+    {
+      "name": "Applix Xorovo",
+      "location": "Cagliari, Sardinia",
+      "description": "Student Internship",
+      "position": "iOS Developer",
+      "url": "https://www.linkedin.com/company/applix-srl/about/",
+      "startDate": "2014-01",
+      "endDate": "2014-04",
+      "summary": "Internship in the research and development department of the company. Advanced development of iOS mobile applications within a team.",
+      "highlights": [
+        "First experience with Objective C on a real project."
+      ]
+    },
+    {
+      "name": "Tiscali",
+      "location": "Cagliari, Sardinia",
+      "description": "Diagnosis on Telecom Wholesale faults",
+      "position": "Tech Support",
+      "url": "https://www.tiscali.it/",
+      "startDate": "2008-09",
+      "endDate": "2008-09",
+      "summary": "50 hours apprenticeship involving diagnosis on Telecom Wholesale faults, testing, and post-diagnosis."
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "institution": "University of Cagliari",
+      "startDate": "2009",
+      "endDate": "2014",
+      "score": "88/110",
+      "courses": [
+        "Programming",
+        "Mathematical Analysis",
+        "Algorithms and Data Structures",
+        "Computer Networks",
+        "Software Engineering"
+      ],
+      "url": "https://web.unica.it/unica/it/crs_60_61.page"
+    },
+    {
+      "area": "Industrial Engineer",
+      "studyType": "High School",
+      "institution": "State Industrial Technical Institute 'Michele Giua' Cagliari",
+      "startDate": "2004",
+      "endDate": "2009",
+      "score": "100/100",
+      "courses": [
+        "Technologies and Design of Computer",
+        "Project Management",
+        "Computer Science"
+      ],
+      "url": "https://www.giua.edu.it/"
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Mobile",
+      "level": "Master",
+      "keywords": [
+        "React Native",
+        "Swift",
+        "Kotlin"
+      ]
+    },
+    {
+      "name": "Web",
+      "level": "Master",
+      "keywords": [
+        "Typescript",
+        "ReactJS"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "Master",
+      "keywords": [
+        "Docker",
+        "GitLab CI"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Italian",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Open Source",
+      "keywords": [
+        "React Native",
+        "Linux",
+        "GitHub"
+      ]
+    },
+    {
+      "name": "Music",
+      "keywords": [
+        "Rap",
+        "Metal",
+        "Live concerts"
+      ]
+    },
+    {
+      "name": "Other",
+      "keywords": [
+        "Videogames",
+        "PC enthusiast",
+        "Chess",
+        "Animals, 'specially cats"
+      ]
+    }
+  ],
+  "references": [],
+  "projects": [],
+  "certificates": [
+    {
+      "date": "2008-05-08",
+      "issuer": "Cisco Systems, Inc",
+      "name": "CCNA 1 Networking Basics"
+    },
+    {
+      "date": "2009-03-11",
+      "issuer": "Cisco Systems, Inc",
+      "name": "CCNA 2 Router and Routing Basics"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}

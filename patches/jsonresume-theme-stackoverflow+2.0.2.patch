@@ -1,0 +1,32 @@
+diff --git a/node_modules/jsonresume-theme-stackoverflow/theme/partials/work.hbs b/node_modules/jsonresume-theme-stackoverflow/theme/partials/work.hbs
+index f7baa20..f335731 100755
+--- a/node_modules/jsonresume-theme-stackoverflow/theme/partials/work.hbs
++++ b/node_modules/jsonresume-theme-stackoverflow/theme/partials/work.hbs
+@@ -27,7 +27,13 @@
+         {{#if position}}
+         <div class="position">{{position}}</div>
+         {{/if}}
+-        <div class="company">{{name}}</div>
++        {{#if url}}
++          <span class="company">
++            <a target="_blank" href="{{url}}">{{name}}</a>
++          </span>
++        {{else}}
++          <div class="company">{{name}}</div>
++        {{/if}}
+       </header>
+       {{/if}}
+ 
+@@ -35,11 +41,7 @@
+       <span class="fas fa-map-marker-alt"></span>
+       <span class="location">{{location}}</span>
+       {{/if}}
+-      {{#if url}}
+-      <span class="url">
+-        <span class="fas fa-external-link-alt"></span>
+-        <a target="_blank" href="{{url}}">{{url}}</a>
+-      </span> {{/if}} {{#if keywords.length}}
++      {{#if keywords.length}}
+       <ul class="keywords">
+         {{#each keywords}}
+         <li>{{.}}</li>

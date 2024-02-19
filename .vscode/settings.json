@@ -1,0 +1,11 @@
+{
+  "editor.wordWrap": "bounded",
+  "json.schemas": [
+    {
+      "fileMatch": [
+        "resume.json"
+      ],
+      "url": "file:./node_modules/resume-schema/schema.json"
+    }
+  ]
+}
