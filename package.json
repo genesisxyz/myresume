@@ -4,7 +4,9 @@
   "type": "module",
   "scripts": {
     "postinstall": "patch-package",
-    "render": "resumed -t jsonresume-theme-stackoverflow render"
+    "start": "resume serve -t stackoverflow",
+    "html": "resume export resume.html --format html --theme stackoverflow",
+    "pdf": "resume export resume.pdf --format pdf --theme stackoverflow"
   },
   "devDependencies": {},
   "peerDependencies": {
@@ -14,6 +16,7 @@
     "jsonresume-theme-stackoverflow": "2.0.2",
     "patch-package": "^8.0.0",
     "postinstall-postinstall": "^2.1.0",
-    "resumed": "^3.0.1"
-  }
+    "resume-cli": "^3.0.8"
+  },
+  "license": "MIT"
 }
