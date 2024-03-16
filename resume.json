@@ -183,15 +183,38 @@
       "level": "Master",
       "keywords": [
         "Typescript",
-        "ReactJS"
+        "ReactJS",
+        "VueJS"
       ]
     },
     {
       "name": "DevOps",
-      "level": "Master",
+      "level": "Advanced",
       "keywords": [
         "Docker",
         "GitLab CI"
+      ]
+    },
+    {
+      "name": "Backend",
+      "level": "Intermediate",
+      "keywords": [
+        "Python",
+        "PHP",
+        "Django",
+        "NodeJS",
+        "Symfony",
+        "SQL"
+      ]
+    },
+    {
+      "name": "Other",
+      "level": "Advanced",
+      "keywords": [
+        "Git",
+        "Jira",
+        "VSCode",
+        "Linux"
       ]
     }
   ],
@@ -215,20 +238,12 @@
       ]
     },
     {
-      "name": "Music",
-      "keywords": [
-        "Rap",
-        "Metal",
-        "Live concerts"
-      ]
-    },
-    {
       "name": "Other",
       "keywords": [
+        "Music",
         "Videogames",
         "PC enthusiast",
-        "Chess",
-        "Animals, 'specially cats"
+        "Chess"
       ]
     }
   ],
